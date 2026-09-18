@@ -1,10 +1,18 @@
+:root {
+  --Cream: #eae2b7;
+  --Navy: #003049;
+}
+  
+
+
+
 body {
-  backround-color: blue;
+  backround-color: #eae2b7;
 }
 
 h1 {
   backround-color: #003049;
-  color: red;
+  color: #eae2b7;
 }
 
 
