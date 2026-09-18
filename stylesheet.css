@@ -7,12 +7,12 @@
 
 
 body {
-  backround-color: #eae2b7;
+  background-color: var(--Cream);
 }
 
 h1 {
-  backround-color: #003049;
-  color: #eae2b7;
+  background-color: var(--Navy);
+  color: var(--Cream);
 }
 
 
