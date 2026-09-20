@@ -28,7 +28,7 @@ h2 {
     text-align: center;
 }
 .about-me {
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
     color: var(--Navy);
     margin-left: 50%;
@@ -53,7 +53,7 @@ h2 {
 }
 
 .Welcome-heading {
-  font-size: 30px;
+  font-size: 34px;
   flex: 0.755;
 }
 
@@ -66,4 +66,5 @@ h2 {
 
 .Acessibility-link {
   align-items: left;
+  font-size: 20px;
 } 
