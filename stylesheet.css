@@ -27,6 +27,11 @@ h2 {
     color: var(--Navy);
     text-align: center;
 }
+
+p {
+  line-height: 1.5;
+}
+
 .about-me {
     font-size: 20px;
     text-align: center;
