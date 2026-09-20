@@ -1,6 +1,9 @@
 :root {
   --Cream: #eae2b7;
   --Navy: #003049;
+  --Red: #D62828;
+  --Orange: #F77F00;
+  --Yellow: #FCBF49;
 }
   
 
@@ -8,23 +11,59 @@
 
 body {
   background-color: var(--Cream);
+  margin: 0;
 }
 
 h1 {
+  font-size: 50px;
   background-color: var(--Navy);
   color: var(--Cream);
-  align-items: center;
+  text-align: center;
+  padding: 2px;
+  margin: 0;
 }
 
 h2 {
     color: var(--Navy);
+    text-align: center;
+}
+.about-me {
+    font-size: 17px;
+    text-align: center;
+    color: var(--Navy);
+    margin-left: 50%;
+    margin-right: 10%;
 }
 
+.Navigation { 
+  font-size: 20px;
+  padding: 10px 50px; 
+  color: var(--Navy);
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid var(--Navy);
+  width: 80%;
+}
 
-
-
-
-td { 
-  padding: 50px 5px; 
+.Profile-block {
+  display: flex;
   align-items: center;
+  gap: 0px;
+  margin-top: 40px;
 }
+
+.Welcome-heading {
+  font-size: 30px;
+  flex: 0.755;
+}
+
+.Profile-photo {
+  width: 250px;
+  height: auto;
+  border-radius: 10%;
+  margin-left: 0px;
+}
+
+.Acessibility-link {
+  align-items: left;
+} 
