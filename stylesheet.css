@@ -14,8 +14,15 @@ body {
   margin: 0;
 }
 
+.Header-image {
+  background-color: var(--Navy);
+  padding: 10px;
+  margin: 0;
+}
+
 h1 {
   font-size: 50px;
+  width: 100%;
   background-color: var(--Navy);
   color: var(--Cream);
   text-align: center;
@@ -28,48 +35,57 @@ h2 {
     text-align: center;
 }
 
-p {
-  line-height: 1.5;
+
+.Navigation {
+  display: flex;
+  justify-content: center;
 }
 
-.about-me {
-    font-size: 20px;
-    text-align: center;
-    color: var(--Navy);
-    margin-left: 50%;
-    margin-right: 10%;
+.Links {
+  text-align: left;
+  display: flex;
+  font-size: 30px;
+  gap: 150px;
+  list-style-type: none;
 }
 
-.Navigation { 
-  font-size: 20px;
-  padding: 10px 50px; 
-  color: var(--Navy);
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: 2px solid var(--Navy);
-  width: 80%;
+.Links a {
+  text-decoration: none;
+  color: var(--Cream);
+  background-color: var(--Navy);
+  padding: 10px 20px;
+  border-radius: 75px 75px;
 }
 
 .Profile-block {
   display: flex;
-  align-items: center;
-  gap: 0px;
-  margin-top: 40px;
+  justify-content: center;
+  gap: 200px;
 }
 
 .Welcome-heading {
-  font-size: 34px;
-  flex: 0.755;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 50px;
 }
 
 .Profile-photo {
   width: 450px;
-  height: auto;
-  border-radius: 10%;
-  margin-left: 0px;
+  border-radius: 25%
+}
+
+.about-me {
+    font-size: 34px;
+    text-align: center;
+    color: var(--Navy);
 }
 
 .Acessibility-link {
-  align-items: left;
-  font-size: 20px;
+  text-align: left;
+  font-size: 24px;
+  margin-left: 5%;
+  padding-top: 50px;
 } 
+.Acessibility-link a {
+  text-decoration: none;
+}
