@@ -65,8 +65,13 @@ h2 {
 
 .Welcome-heading {
   text-align: center;
-  padding-top: 200px;
-  font-size: 50px;
+  margin-top: 250px;
+  margin-bottom: 500px;
+  padding: 10px 20px;
+  border-radius: 75px 75px;
+  font-size: 75px;
+  background-color: var(--Cream);
+  outline: 5px solid var(--Navy);
 }
 
 .Profile-photo {
@@ -75,17 +80,59 @@ h2 {
 }
 
 .about-me {
-    font-size: 34px;
-    text-align: center;
-    color: var(--Navy);
+  font-size: 34px;
+  text-align: center;
+  color: var(--Navy);
+  background-color: var(--Cream);
+  padding: 10px 20px;
+  border-radius: 75px 75px;
+
 }
 
 .Acessibility-link {
   text-align: left;
   font-size: 24px;
-  margin-left: 5%;
-  padding-top: 50px;
+
+  margin-right: 65%;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  border-top-right-radius: 75px 75px;
+  border-bottom-right-radius: 75px 75px;
+  background-color: var(--Cream);
+  outline: 5px solid var(--Navy);
 } 
 .Acessibility-link a {
   text-decoration: none;
+}
+.triangle1 {
+  width: 100vw;
+  background-color: var(--Red); 
+  position: fixed;
+  height: 120vh;
+  top: 100px;
+  right: 50px;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  z-index: -1;
+}
+.triangle2 {
+  width: 100vw;
+  background-color: var(--Orange); 
+  position: fixed;
+  height: 120vh;
+  top: 300px;
+  right: 50px;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  z-index: -1;
+}
+.triangle3 {
+  width: 100vw;
+  background-color: var(--Yellow); 
+  position: fixed;
+  height: 120vh;
+  top: 500px;
+  right: 50px;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+  z-index: -1;
 }
