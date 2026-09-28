@@ -6,15 +6,14 @@
   --Yellow: #FCBF49;
 }
   
-
-
-
 body {
   background-color: var(--Cream);
   margin: 0;
 }
 
-.Header-image {
+.Header-Banner {
+  position: fixed;
+  width: 100%;
   background-color: var(--Navy);
   padding: 10px;
   margin: 0;
@@ -35,10 +34,15 @@ h2 {
     text-align: center;
 }
 
-
+/*for home page only*/
 .Navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  top: 100px;
   display: flex;
   justify-content: center;
+  background-color: var(--Navy);
 }
 
 .Links {
@@ -51,8 +55,8 @@ h2 {
 
 .Links a {
   text-decoration: none;
-  color: var(--Cream);
-  background-color: var(--Navy);
+  color: var(--Navy);
+  background-color: var(--Cream);
   padding: 10px 20px;
   border-radius: 75px 75px;
 }
@@ -65,7 +69,7 @@ h2 {
 
 .Welcome-heading {
   text-align: center;
-  margin-top: 250px;
+  margin-top: 450px;
   margin-bottom: 500px;
   padding: 10px 20px;
   border-radius: 75px 75px;
@@ -75,6 +79,7 @@ h2 {
 }
 
 .Profile-photo {
+  margin-top: 200px;
   width: 450px;
   border-radius: 25%
 }
@@ -135,4 +140,30 @@ h2 {
   right: 50px;
   clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
   z-index: -1;
+}
+
+/*End of home page*/
+
+
+.Hobbie1 {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.Hobbies-Image {
+  margin-top: 500px;
+  width: 450px;
+  border-radius: 25%
+
+}
+
+.Hobbies-Heading {
+  Margin-top: 500px;
+  font-size: 45px;
+}
+.Hobbies-Heading p {
+  font-size: 24px;
 }
