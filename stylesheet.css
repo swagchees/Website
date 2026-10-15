@@ -22,6 +22,8 @@ p {
   background-color: var(--Navy);
   padding: 10px;
   margin: 0;
+  top: 0;
+  left: 0;
 }
 
 h1 {
@@ -68,13 +70,14 @@ h2 {
 .Profile-block {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   gap: 200px;
 }
 
 .Welcome-heading {
   text-align: center;
-  margin-top: 450px;
-  margin-bottom: 500px;
+  position: relative;
+  top: 450px;
   padding: 10px 20px;
   border-radius: 75px 75px;
   font-size: 75px;
@@ -83,17 +86,18 @@ h2 {
 }
 
 .Profile-photo {
-  margin-top: 200px;
   width: 450px;
   border-radius: 25%
 }
 
 .about-me {
+  position: relative;
+  top: 300px;
   font-size: 34px;
   text-align: center;
-  color: var(--Navy);
-  background-color: var(--Cream);
-  padding: 10px 20px;
+  color: var(--Cream);
+  background-color: var(--Navy);
+  padding: 15px 25px;
   border-radius: 75px 75px;
 
 }
@@ -180,19 +184,213 @@ hr {
   margin-bottom: 100px;
 }
 
+.rectangle1 {
+  width: 50px;
+  height: 100000px;
+  top: 5px;
+  display: inline-block;
+  position: fixed;
+  background-color: var(--Red);
+  z-index: -1;
+
+}
+.rectangle2 {
+  width: 60px;
+  height: 100000px;
+  top: 5px;
+  display: inline-block;
+  position: fixed;
+  background-color: var(--Orange);
+  z-index: -2;
+
+}
+.rectangle3 {
+  width: 80px;
+  height: 100000px;
+  top: 5px;
+  display: inline-block;
+  position: fixed;
+  background-color: var(--Yellow);
+  z-index: -3;
+
+}
+
 /*End of Hobbies page*/
 
 .Achievements-Block {
+  color: var(--Cream);
   font-size: 30px;
-  justify-content: center;
+  justify-content: left;
   gap: 200px;
-  margin-left: 100px;
-  margin-right: 100px;
   margin-top: 1%;
-  margin-bottom: 15%;
 }
 
+.Achievements-Block h2 {
+  text-align: left;
+  margin-left: 5%;
+}
 .Achievements-Block ul {
+  color: var(--Navy);
   padding: 5%;
-  margin: 100px;
+  margin: 10px;
+}
+.Achievements-Block li {
+  margin-bottom: 35px;
+}
+
+.triangle4 {
+  width: 100vw;
+  background-color: var(--Yellow); 
+  position: fixed;
+  height: 120vh;
+  top: 400px;
+  left: 350px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  z-index: -1;
+}
+.triangle5 {
+  width: 100vw;
+  background-color: var(--Orange); 
+  position: fixed;
+  height: 120vh;
+  top: 500px;
+  left: 450px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  z-index: -1;
+}
+.triangle6 {
+  width: 100vw;
+  background-color: var(--Red); 
+  position: fixed;
+  height: 120vh;
+  top: 300px;
+  left: 550px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  z-index: -2;
+}
+
+/*End of Achievements page*/
+
+.Favorite-block-Right {
+
+  justify-content: right;
+  gap: 200px;
+  margin-left: 15%;
+  margin-bottom: 15px;
+  padding-right: 1000px;
+  padding-left: 50px;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 75px 0px 0px 75px;
+  background-color: var(--Red);
+}
+
+.Favorite-block-Left {
+  justify-content: left;
+  gap: 200px;
+  margin-right: 15%;
+  margin-bottom: 15px;
+  padding-left: 1000px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  border-radius: 0px 75px 75px 0px;
+  background-color: var(--Orange);
+}
+
+.Favorite-block-Right h2 {
+  background-color: var(--Cream);
+  padding: 10px 20px;
+  border-radius: 75px 75px;
+}
+
+.Favorite-block-Left h2 {
+  background-color: var(--Cream);
+  padding: 10px 20px;
+  border-radius: 75px 75px;
+}
+
+.Favorite-block-Right p {
+  background-color: var(--Cream);
+  padding: 10px 20px;
+  border-radius: 50px 50px;
+}
+
+.Favorite-block-Left p {
+  background-color: var(--Cream);
+  padding: 10px 20px;
+  border-radius: 50px 50px;
+}
+
+/*End of Favorite Things page*/
+
+
+.rectangle4 {
+  width: 5000000px;
+  height: 10px;
+  top: 65%;
+  display: inline-block;
+  position: fixed;
+  background-color: var(--Navy);
+  z-index: -1;
+
+}
+
+.Goals {
+  display: flex;
+  margin-top: 300px;
+  font-size: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 200px;
+}
+
+
+.line1 {
+  width: 10px;
+  height: 1000px;
+  margin-left: 50%;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+
+
+}
+
+
+.Accessibility-Form {
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 30px;
+  padding-left: 40%;
+  padding-top: 10px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Accessibility-Form button {
+  background-color: var(--Navy);
+  color: var(--Cream);
+  font-size: large;
+  margin: 15px;
+  padding: 10px 200px;
+  border-radius: 75px 75px;
+}
+
+.Accessibility-Form select {
+  font-size: inherit;
+  padding: 4px 4px;
+}
+
+.Accessibility-Form textarea {
+  height: 100px;
+  width: 200px;
+}
+
+.Accessibility-Form input#username {
+  height: 30px;
 }
